@@ -5,13 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
+   
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^30.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawaedina27/ci-cd-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawaedina27/ci-cd-test/issues"
+  },
+  "homepage": "https://github.com/dawaedina27/ci-cd-test#readme"
 }
